@@ -14,7 +14,7 @@ use tower_http::services::ServeDir;
 use lazy_static::lazy_static;
 
 lazy_static! {
-    static ref HOST: String = "127.0.0.1".to_string(); // 创建全局HOST变量
+    static ref HOST: String = "0.0.0.0".to_string(); // 创建全局HOST变量
     static ref PORT: u16 = 80; // 创建全局PORT变量
 }
 
